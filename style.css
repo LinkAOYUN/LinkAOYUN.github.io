@@ -20,12 +20,15 @@ heaedr {
 }
 aside {
   justify-content: flex-start;
-  flex : 1
+  flex : 1;
+  align-items: center
 }
 article{
   justify-content: flex-start;
-  flex:3
+  flex:3;
+  align-items: center
 }
 footer {
   justify-content: flex-start;
+  align-items: flex-end
 }
