@@ -1,5 +1,4 @@
 <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
-a {
-   color: green;
-}
+a{ color:red}
+a:hover{ color:green}
