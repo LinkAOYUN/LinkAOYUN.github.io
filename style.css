@@ -1,5 +1,16 @@
 <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
-a {
-  color:green;
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
 }
