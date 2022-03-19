@@ -23,13 +23,3 @@ display: flex
 heaedr { 
   justify-content: flex-start;          
 }
-aside {
-  justify-content: flex-start;
-}
-article{
-  justify-content: center;
-}
-footer {
-  justify-content: flex-start;
-  align-items: flex-end
-}
