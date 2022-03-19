@@ -28,8 +28,6 @@ aside {
 }
 article{
   justify-content: center;
-  flex:3;
-  align-items: center
 }
 footer {
   justify-content: flex-start;
