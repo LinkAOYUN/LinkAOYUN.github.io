@@ -20,8 +20,7 @@ main{
 display: flex
 }
 heaedr { 
-  justify-content: flex-start;   
-  align-items:stretch;
+
 }
 aside {
   justify-content: flex-start;
