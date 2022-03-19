@@ -19,7 +19,7 @@ p
 main{
 display: flex
 }
-heaedr { 
+heaedr { flex : 1;
 
 }
 aside {
