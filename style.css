@@ -14,3 +14,26 @@ a:visited {
 a:hover {
   color: green;
 }
+body{
+display: flex
+}
+main{
+display: flex
+}
+heaedr { 
+  justify-content: flex-start;          
+}
+aside {
+  justify-content: flex-start;
+  flex : 1;
+  align-items: center
+}
+article{
+  justify-content: center;
+  flex:3;
+  align-items: center
+}
+footer {
+  justify-content: flex-start;
+  align-items: flex-end
+}
