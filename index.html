@@ -1,45 +1,63 @@
-<!DOCTYPE html>
-
 <html lang="zh-CN">
 
 <head>
-    <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet"> 
     <meta charset="utf-8">
-    <title>二次元</title>
+    <title>我的个人网站</title>
+    <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="thumbnail.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
 </head>
 
 <body>
-    <header><img src="https://w.wallhaven.cc/full/v9/wallhaven-v9v3r5.jpg">
-        </header>
-        
-        <main>
-            <aside>
-                </aside>
-            <article>
-                 <p>
-                   跳转到<a href="https://linkaoyun.github.io/">HOME</a>
-                   </p>
-               <p>
-                   跳转到<a href="https://linkaoyun.github.io/bilibili.html">BILIBLI网站跳转</a>
-                   </p>
-                    
-<p>This is the first page I made at Adalab.</p>
-            <div>
-            这是为<a href="https://www.adalab.cn"><img src="https://www.adalab.cn/images/adalab.png">
-                    </a>挑战赛制作的网站。
-                </div>
-            <p>
-                二次元网站
-                </p>   
-            <p>
-                愿意好好磨练
-                </p>
-                </article>       
-            </main>
-    <footer>
-        by <a href="https://www.zhihu.com/people/heiqimowang" target="_blank">我的知乎</a> for <a href="https://www.adalab.cn" target="_blank">Adalab官网</a>
-        </footer>
+  <header><img src="banner.jpg"></header>
+  <main>
+    <aside>
+      <nav>
+        <ul>
+          <li>导航
+            <ul>
+              <li>
+                <a href="bilibili.html">bilibili</a>
+              </li>
+            </ul>
+          </li>
+          <li>参考
+            <ul>
+              <li>
+                <a href="https://developer.mozilla.org/zh-CN/docs/Learn">MDN</a>
+              </li>
+              <li>
+                <a href="https://waline.js.org/guide/get-started.html">Waline</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <article>
+      <h1>瑞克和莫蒂</h1><a href="https://www.douban.com/search?q=%E7%91%9E%E5%85%8B%E5%92%8C%E8%8E%AB%E8%92%82"><img src="test.jpg" class="small"></a>
+      <h2>本人最喜欢的美漫</h2>
+        <h3>简介</h3>
+          <p>Rick and Morty是由Justin Roiland和 Dan Harmon为卡通网络深夜节目Adult Swim创作的美国成人动画科幻情景喜剧。该系列追随着疯狂科学家瑞克·桑切斯（Rick Sanchez）以及他容易受影响的外孙莫蒂·史密斯（Morty Smith）的脚步，展现了他们的家庭生活和跨维度冒险的奇幻经历。</p>
+        <h3>故事内容</h3>
+          <p>天才兼疯子科学家Rick在失踪多年后突然回到女儿Beth的身边，并且在她的车库里搞了一个科学实验室。Rick有一把“传送门枪”，可以穿越到宇宙的各个次元。孙子Morty莫名其妙就成了他的助手，经常被拖进他的自制太空船内，跟他一同开展各种疯狂刺激的宇宙冒险。女儿和女婿Jerry对他的疯狂行为感到不满，却又对这个天才科学家无可奈何。</p>
+        <h3>主要人物</h3>
+          <p>Rick Sanchez：一个奇怪和酗酒的疯狂科学家，他是Beth的父亲，Jerry的岳父，以及Morty和Summer的外公。他不负责任的性格导致Beth和Jerry担心他们儿子Morty的安全。</p>
+          <p>Morty Smith：Rick的善良但容易受伤害的14岁的外孙，经常被卷入Rick的疯狂冒险。他天真但是坚定的道德准则与瑞克的马基雅维利主义自我相抗衡。</p>
+        <h3>获奖记录</h3>
+          <p>2018年1月12日，《瑞克与莫蒂》获得2018评论家选择奖获最佳动画剧集。<br>2018年9月9日，《瑞克与莫蒂》获得艾美奖“最佳动画片”。</p>
+          <p><img src="Rick and Morty.jpg" class="small" id="smart-image"></p>
+          <div id="waline"></div>
+          <script>
+            Waline({
+              el: '#waline',
+              serverURL: 'https://blog-waline-opal.vercel.app',
+            });
+          </script>
+    </article>
+    </main>
+    <footer>by <a href="https://github.com/cybzzz" target="_blank">CYB</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a></footer>
 </body>
+
 </html>
